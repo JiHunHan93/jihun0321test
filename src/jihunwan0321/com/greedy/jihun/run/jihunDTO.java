@@ -5,14 +5,16 @@ public class jihunDTO {
 	private String name;
 	private int age;
 	private String address;
+	private String sex;
 	
 	public jihunDTO() {}
 
-	public jihunDTO(String name, int age, String address) {
+	public jihunDTO(String name, int age, String address, String sex) {
 		super();
 		this.name = name;
 		this.age = age;
 		this.address = address;
+		this.sex = sex;
 	}
 
 	public String getName() {
@@ -39,10 +41,19 @@ public class jihunDTO {
 		this.address = address;
 	}
 
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
 	@Override
 	public String toString() {
-		return "jihunDTO [name=" + name + ", age=" + age + ", address=" + address + "]";
+		return "jihunDTO [name=" + name + ", age=" + age + ", address=" + address + ", sex=" + sex + "]";
 	}
+
 	
 	
 }
