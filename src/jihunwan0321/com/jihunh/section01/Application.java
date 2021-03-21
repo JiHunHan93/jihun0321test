@@ -6,6 +6,8 @@ public class Application {
 		
 		System.out.println("첫 어플");
 		
+		System.out.println("기능 테스트 01");
+		
 	}
 
 }
