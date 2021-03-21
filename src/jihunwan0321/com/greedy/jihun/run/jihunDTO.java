@@ -6,6 +6,8 @@ public class jihunDTO {
 	private int age;
 	private String address;
 	private String sex;
+	private String sexCity;
+	/* 난장판 */
 	
 	public jihunDTO() {}
 
